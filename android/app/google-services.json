@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "299579854254",
+    "project_id": "mussi-notepad-da1d4",
+    "storage_bucket": "mussi-notepad-da1d4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:299579854254:android:ae94c54b962c98cfd08c3f",
+        "android_client_info": {
+          "package_name": "br.com.prodev.notepad"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "299579854254-v3a8jt79l1rghfkug4ta5pm9490uql51.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDm0kBUAqlmd1_0N2Kf1yW8iRY15RwnS5c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "299579854254-v3a8jt79l1rghfkug4ta5pm9490uql51.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
