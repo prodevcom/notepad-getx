@@ -8,6 +8,8 @@ import 'package:notepad/src/pages/login/binding/login_binding.dart';
 import 'package:notepad/src/pages/login/login_page.dart';
 import 'package:notepad/src/pages/register/register_page.dart';
 
+import '../pages/register/binding/register_binding.dart';
+
 abstract class AppPages {
   static const String home = "/";
   static const String register = "/register";
@@ -27,7 +29,11 @@ abstract class PageRoutes {
   // Rotas Existes do App
   static List<GetPage> pages = [
     GetPage(name: AppPages.home, page: () => const HomePage()),
-    GetPage(name: AppPages.register, page: () => const RegisterPage()),
+    GetPage(
+      name: AppPages.register,
+      page: () => const RegisterPage(),
+      binding: RegisterBinding(),
+    ),
     GetPage(
       name: AppPages.login,
       page: () => const LoginPage(),
