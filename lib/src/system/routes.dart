@@ -3,6 +3,7 @@ import 'dart:developer';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:get/route_manager.dart';
 
+import 'package:notepad/src/pages/home/binding/home_binding.dart';
 import 'package:notepad/src/pages/home/home_page.dart';
 import 'package:notepad/src/pages/login/binding/login_binding.dart';
 import 'package:notepad/src/pages/login/login_page.dart';
@@ -28,7 +29,11 @@ abstract class PageRoutes {
 
   // Rotas Existes do App
   static List<GetPage> pages = [
-    GetPage(name: AppPages.home, page: () => const HomePage()),
+    GetPage(
+      name: AppPages.home,
+      page: () => const HomePage(),
+      binding: HomeBinding(),
+    ),
     GetPage(
       name: AppPages.register,
       page: () => const RegisterPage(),
